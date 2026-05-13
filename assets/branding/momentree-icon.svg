@@ -1,61 +1,37 @@
-<svg width="1024" height="1024" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="glow" cx="50%" cy="55%" r="40%">
-      <stop offset="0%" stop-color="#1f6b45" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#101614" stop-opacity="0"/>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 420) rotate(90) scale(420)">
+      <stop offset="0" stop-color="#1B3A2B"/>
+      <stop offset="1" stop-color="#101614"/>
     </radialGradient>
-    <radialGradient id="leafTop" cx="40%" cy="35%" r="60%">
-      <stop offset="0%" stop-color="#7dd87f"/>
-      <stop offset="100%" stop-color="#1f6b45"/>
+    <radialGradient id="canopyGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 430) rotate(90) scale(220)">
+      <stop offset="0" stop-color="#86D78B" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#86D78B" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="ringGold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f0c55a"/>
-      <stop offset="50%" stop-color="#d6a43a"/>
-      <stop offset="100%" stop-color="#b8852a"/>
+    <linearGradient id="ringStroke" x1="236" y1="220" x2="788" y2="804" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6A43A"/>
+      <stop offset="1" stop-color="#E8C66A"/>
     </linearGradient>
-    <linearGradient id="ringTrack" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1f6b45" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#1f6b45" stop-opacity="0.08"/>
+    <linearGradient id="trunkFill" x1="512" y1="400" x2="512" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5A2B"/>
+      <stop offset="1" stop-color="#5C3A1C"/>
     </linearGradient>
-    <filter id="goldGlow" x="0" y="0" width="100" height="100" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="0.8"/>
-    </filter>
+    <linearGradient id="leafFill" x1="355" y1="320" x2="682" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EDB77"/>
+      <stop offset="1" stop-color="#3D9F55"/>
+    </linearGradient>
   </defs>
 
-  <circle cx="50" cy="50" r="49" fill="#101614"/>
-  <circle cx="50" cy="50" r="47" fill="url(#glow)"/>
+  <rect width="1024" height="1024" rx="240" fill="url(#bgGlow)"/>
+  <circle cx="512" cy="512" r="232" fill="url(#canopyGlow)"/>
 
-  <circle
-    cx="50"
-    cy="50"
-    r="42"
-    stroke="url(#ringTrack)"
-    stroke-width="4.5"
-    stroke-linecap="round"
-    fill="none"
-  />
+  <path d="M512 170C633 170 748 221 818 309C833 327 830 352 811 365C792 379 766 376 751 358C697 289 608 246 512 246C355 246 228 373 228 530C228 687 355 814 512 814C641 814 752 728 786 603C792 581 814 568 836 574C859 581 872 604 866 627C823 786 681 890 512 890C313 890 152 729 152 530C152 331 313 170 512 170Z" fill="url(#ringStroke)"/>
 
-  <g filter="url(#goldGlow)">
-    <circle
-      cx="50"
-      cy="50"
-      r="42"
-      stroke="url(#ringGold)"
-      stroke-width="4.5"
-      stroke-linecap="round"
-      stroke-dasharray="205.784 58.109"
-      stroke-dashoffset="65.973"
-      fill="none"
-    />
-  </g>
+  <path d="M480 680C482 584 486 505 495 435C501 385 508 354 512 340C516 353 523 385 529 435C538 505 542 584 544 680H480Z" fill="url(#trunkFill)"/>
+  <path d="M506 427C451 427 406 395 388 347C434 345 472 360 500 392C504 397 509 402 512 408C515 402 520 397 524 392C552 360 590 345 636 347C618 395 573 427 518 427H506Z" fill="url(#leafFill)"/>
+  <path d="M406 547C346 547 296 510 276 449C331 447 377 466 410 504C416 511 422 519 427 527C421 534 414 541 406 547Z" fill="#58B86B"/>
+  <path d="M618 547C610 541 603 534 597 527C602 519 608 511 614 504C647 466 693 447 748 449C728 510 678 547 618 547Z" fill="#58B86B"/>
+  <path d="M514 630C446 630 389 588 366 521C429 518 482 541 519 584C556 541 609 518 672 521C649 588 592 630 524 630H514Z" fill="#4AAA61"/>
 
-  <circle cx="59.35" cy="9.05" r="2.5" fill="#f0c55a"/>
-
-  <rect x="48.5" y="55" width="3" height="13" rx="1.5" fill="#1f6b45"/>
-  <ellipse cx="50" cy="68.5" rx="5" ry="1.2" fill="#1f6b45" opacity="0.5"/>
-  <ellipse cx="50" cy="52" rx="9.5" ry="8" fill="#5dbb63"/>
-  <ellipse cx="42" cy="47.5" rx="7.5" ry="6.5" fill="#5dbb63"/>
-  <ellipse cx="58" cy="47.5" rx="7.5" ry="6.5" fill="#5dbb63"/>
-  <ellipse cx="50" cy="40" rx="7.5" ry="7" fill="url(#leafTop)"/>
-  <ellipse cx="47.5" cy="37.5" rx="2.5" ry="1.5" fill="#a8e6aa" opacity="0.45"/>
+  <circle cx="512" cy="742" r="26" fill="#D6A43A"/>
 </svg>
