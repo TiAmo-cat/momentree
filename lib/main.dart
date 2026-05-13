@@ -7,7 +7,9 @@ import 'app/controllers/locale_controller.dart';
 import 'app/controllers/home_controller.dart';
 import 'app/routes/app_pages.dart';
 import 'app/routes/app_routes.dart';
+import 'app/services/ad_service.dart';
 import 'l10n/app_localizations.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
@@ -21,11 +23,13 @@ void main() async {
   Get.put(ThemeController());
   Get.put(LocaleController());
   Get.put(HomeController());
+  AdService.initialize();
   await Future.delayed(const Duration(milliseconds: 150));
-  runApp(const MomentumApp());
+  runApp(const MomentreeApp());
 }
-class MomentumApp extends StatelessWidget {
-  const MomentumApp({super.key});
+
+class MomentreeApp extends StatelessWidget {
+  const MomentreeApp({super.key});
   @override
   Widget build(BuildContext context) {
     return Obx(() {
@@ -33,7 +37,7 @@ class MomentumApp extends StatelessWidget {
       final tc = Get.find<ThemeController>();
       final themeData = tc.theme?.toMaterialTheme() ?? ThemeData.dark();
       return GetMaterialApp(
-        title: 'Momentum',
+        title: 'Momentree',
         debugShowCheckedModeBanner: false,
         theme: themeData,
         locale: lc.locale,

@@ -1,7 +1,7 @@
 {
   "@@locale": "en",
-  "appName": "Momentum",
-  "tagline": "Grow with your momentum",
+  "appName": "Momentree",
+  "tagline": "Habit & Urge Tracker",
 
   "themeForestNight": "Forest Night",
   "themeForestNightTagline": "Silent growth in darkness",
@@ -11,7 +11,7 @@
   "themeVoltageTagline": "Power through every urge",
 
   "streak": "Streak",
-  "momentum": "Momentum",
+  "momentum": "Growth",
   "days": "days",
   "pts": "pts",
   "totalDays": "Total Days",

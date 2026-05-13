@@ -1,0 +1,43 @@
+<svg width="1024" height="500" viewBox="0 0 1024 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="944" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101614"/>
+      <stop offset="0.55" stop-color="#13201A"/>
+      <stop offset="1" stop-color="#1A2B22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(724 250) rotate(90) scale(170 170)">
+      <stop stop-color="#7FD67F" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7FD67F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="574" y1="118" x2="852" y2="384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6A43A"/>
+      <stop offset="1" stop-color="#E8C66A"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="644" y1="170" x2="792" y2="312" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89DB7B"/>
+      <stop offset="1" stop-color="#41A35C"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="724" y1="208" x2="724" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8F5F31"/>
+      <stop offset="1" stop-color="#5D3B1D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="500" rx="42" fill="url(#bg)"/>
+  <circle cx="724" cy="250" r="168" fill="url(#glow)"/>
+
+  <path d="M724 96C812.366 96 884 167.634 884 256C884 344.366 812.366 416 724 416C635.634 416 564 344.366 564 256C564 167.634 635.634 96 724 96ZM724 130C654.411 130 598 186.411 598 256C598 325.589 654.411 382 724 382C793.589 382 850 325.589 850 256C850 186.411 793.589 130 724 130Z" fill="url(#ring)"/>
+  <path d="M708 332C709 290 711 257 715 226C718 204 721 188 724 180C727 188 730 204 733 226C737 257 739 290 740 332H708Z" fill="url(#trunk)"/>
+  <path d="M720 214C680 214 648 191 636 156C668 155 695 166 714 189C718 192 721 196 724 200C727 196 730 192 734 189C753 166 780 155 812 156C800 191 768 214 728 214H720Z" fill="url(#leaf)"/>
+  <path d="M648 294C604 294 569 266 555 222C595 221 628 235 651 263C655 268 660 273 664 279C660 284 654 289 648 294Z" fill="#59B66C"/>
+  <path d="M800 294C794 289 788 284 784 279C788 273 793 268 797 263C820 235 853 221 893 222C879 266 844 294 800 294Z" fill="#59B66C"/>
+  <path d="M724 348C676 348 636 319 620 272C664 270 701 286 726 316C751 286 788 270 832 272C816 319 776 348 728 348H724Z" fill="#46A65C"/>
+
+  <g opacity="0.9">
+    <text x="90" y="168" fill="#EEF5EF" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700">Momentree</text>
+    <text x="92" y="228" fill="#B7C6BA" font-family="Georgia, 'Times New Roman', serif" font-size="28">Habit &amp; Urge Tracker</text>
+    <text x="92" y="308" fill="#D6E1D8" font-family="Georgia, 'Times New Roman', serif" font-size="26">Hold the urge.</text>
+    <text x="92" y="348" fill="#D6E1D8" font-family="Georgia, 'Times New Roman', serif" font-size="26">Protect the streak.</text>
+    <text x="92" y="388" fill="#D6E1D8" font-family="Georgia, 'Times New Roman', serif" font-size="26">Grow the tree.</text>
+  </g>
+</svg>

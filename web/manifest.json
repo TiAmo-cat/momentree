@@ -1,11 +1,11 @@
 {
-    "name": "momentree",
-    "short_name": "momentree",
+    "name": "Momentree: Habit & Urge Tracker",
+    "short_name": "Momentree",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A habit and urge tracker that turns daily self-discipline into tree growth.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

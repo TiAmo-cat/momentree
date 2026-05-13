@@ -1,6 +1,6 @@
 You are a senior Flutter engineer.
 
-Build a production-ready Flutter MVP app called **Momentum** based on the following strict specification.
+Build a production-ready Flutter MVP app called **Momentree** based on the following strict specification.
 
 DO NOT add features outside the spec.
 
@@ -8,10 +8,10 @@ DO NOT add features outside the spec.
 
 # 1. PRODUCT DEFINITION
 
-Momentum is an offline self-discipline app with:
+Momentree is an offline self-discipline app with:
 
 * Streak tracking system
-* Momentum scoring system
+* Growth scoring system
 * Tree growth visualization system
 * Craving (urge) interruption system
 * Fully local storage only (NO backend)
@@ -48,7 +48,7 @@ State:
 
 # 4. CORE RULES (DO NOT CHANGE)
 
-## 4.1 Momentum rules
+## 4.1 Growth rules
 
 On success check-in:
 
@@ -112,7 +112,7 @@ Tree state is NOT stored, only derived from momentum.
 ## Home Page
 
 * Day counter (streak)
-* Momentum value
+* Growth value
 * Tree visualization (center)
 * Buttons:
 

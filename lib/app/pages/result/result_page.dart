@@ -292,7 +292,7 @@ class _ResultPageState extends State<ResultPage>
               ? 'CRAVING DEFEATED! +5 PTS'
               : l.resultCravingResistTitle,
           'subtitle': isVoltage
-              ? 'WILLPOWER CHARGED. MOMENTUM BUILDING.'
+              ? 'WILLPOWER CHARGED. GROWTH BUILDING.'
               : l.resultCravingResistSubtitle,
           'delta': '+5',
           'positive': true,

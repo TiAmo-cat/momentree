@@ -1,11 +1,11 @@
-# 🌳 Momentum App - UI Design Driven Dev Spec (V2.0)
+# 🌳 Momentree App - UI Design Driven Dev Spec (V2.0)
 
 ---
 
 # 一、产品核心不变
 
 ```text id="core_001"
-Momentum = 戒断成长系统 + 冲动干预 + 树木成长 + 可恢复机制
+Momentree = 戒断成长系统 + 冲动干预 + 树木成长 + 可恢复机制
 ```
 
 ---
@@ -39,7 +39,7 @@ Momentum = 戒断成长系统 + 冲动干预 + 树木成长 + 可恢复机制
 ## 📱 UI表现（对应Home）
 
 ```text id="ui_002"
-- STREAK / MOMENTUM 卡片（玻璃态）
+- STREAK / GROWTH 卡片（玻璃态）
 - 中央发光树（绿色 glow）
 - 红色“craving button”
 - 深色背景 + 星点粒子
@@ -82,7 +82,7 @@ Momentum = 戒断成长系统 + 冲动干预 + 树木成长 + 可恢复机制
 ## 📱 UI表现
 
 ```text id="ui_005"
-- 白色卡片 STREAK / MOMENTUM
+- 白色卡片 STREAK / GROWTH
 - 绿色小树 + 柔光
 - 橙色按钮（craving）
 - 空间感更大
@@ -125,7 +125,7 @@ Momentum = 戒断成长系统 + 冲动干预 + 树木成长 + 可恢复机制
 ## 📱 UI表现
 
 ```text id="ui_008"
-- MOMENTUM 发光进度条
+- GROWTH 发光进度条
 - 紫色能量树
 - 橙色高对比按钮
 - UI有轻微 pulse 动效
@@ -153,14 +153,14 @@ Momentum = 戒断成长系统 + 冲动干预 + 树木成长 + 可恢复机制
 --------------------------------
 TOP AREA
 Day X
-Momentum Value
+Growth Value
 
 --------------------------------
 TREE AREA（核心）
 根据 style 渲染不同 tree skin
 
 --------------------------------
-STREAK / MOMENTUM CARDS
+STREAK / GROWTH CARDS
 （glass / soft / neon）
 
 --------------------------------
@@ -188,7 +188,7 @@ momentum → tree stage
 
 ## 🌱 树状态
 
-| Momentum | 表现     |
+| Growth | 表现     |
 | -------- | ------ |
 | 0-20     | seed   |
 | 20-50    | sprout |

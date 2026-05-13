@@ -78,7 +78,7 @@ class _StyleSelectorPageState extends State<StyleSelectorPage>
                               colors: [Color(0xFF22C55E), Color(0xFFFBBF24), Color(0xFF8B5CF6)],
                             ).createShader(bounds),
                             child: const Text(
-                              'Momentum',
+                              'Momentree',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 30,
@@ -401,7 +401,7 @@ class _PhoneMockupWithLabel extends StatelessWidget {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    isVoltage ? 'MOMENTUM' : t.isForest ? 'Momentum' : 'Keep Growing',
+                    isVoltage ? 'MOMENTREE' : t.isForest ? 'Momentree' : 'Keep Growing',
                     style: TextStyle(
                       fontSize: 7,
                       color: t.textMuted,
@@ -443,7 +443,7 @@ class _PhoneMockupWithLabel extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('MOMENTUM', style: TextStyle(fontSize: 5, color: t.textMuted)),
+                            Text('GROWTH', style: TextStyle(fontSize: 5, color: t.textMuted)),
                             Text('48', style: TextStyle(fontSize: 12, color: t.accentAmber, fontWeight: FontWeight.bold)),
                             const SizedBox(height: 2),
                             Container(

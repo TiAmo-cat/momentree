@@ -98,13 +98,13 @@ abstract class AppLocalizations {
   /// No description provided for @appName.
   ///
   /// In en, this message translates to:
-  /// **'Momentum'**
+  /// **'Momentree'**
   String get appName;
 
   /// No description provided for @tagline.
   ///
   /// In en, this message translates to:
-  /// **'Grow with your momentum'**
+  /// **'Habit & Urge Tracker'**
   String get tagline;
 
   /// No description provided for @themeForestNight.
@@ -152,7 +152,7 @@ abstract class AppLocalizations {
   /// No description provided for @momentum.
   ///
   /// In en, this message translates to:
-  /// **'Momentum'**
+  /// **'Growth'**
   String get momentum;
 
   /// No description provided for @days.

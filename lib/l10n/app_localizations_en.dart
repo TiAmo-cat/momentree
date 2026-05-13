@@ -7,10 +7,10 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appName => 'Momentum';
+  String get appName => 'Momentree';
 
   @override
-  String get tagline => 'Grow with your momentum';
+  String get tagline => 'Habit & Urge Tracker';
 
   @override
   String get themeForestNight => 'Forest Night';
@@ -34,7 +34,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get streak => 'Streak';
 
   @override
-  String get momentum => 'Momentum';
+  String get momentum => 'Growth';
 
   @override
   String get days => 'days';

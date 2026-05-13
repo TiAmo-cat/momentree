@@ -1,6 +1,6 @@
-# momentree
+# Momentree
 
-Grow with your momentum
+A habit and urge tracker that turns daily self-discipline into tree growth.
 
 ## Getting Started
 
