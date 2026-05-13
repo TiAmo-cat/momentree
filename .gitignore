@@ -46,3 +46,6 @@ app.*.map.json
 
 # FVM Version Cache
 .fvm/
+# Ç©ÃûÃÜÔ¿ÅäÖÃ£¨ÎğÌá½»£©
+android/key.properties
+my-release-key.jks

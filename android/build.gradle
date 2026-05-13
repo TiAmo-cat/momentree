@@ -9,9 +9,11 @@ buildscript {
     }
 }
 
-rootProject.buildDir = "../build"
+rootProject.buildDir = file("../build")
 subprojects {
-    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    if (project.projectDir.canonicalPath.startsWith(rootProject.projectDir.canonicalPath + File.separator)) {
+        project.buildDir = new File(rootProject.buildDir, project.name)
+    }
 }
 subprojects {
     project.evaluationDependsOn(":app")
